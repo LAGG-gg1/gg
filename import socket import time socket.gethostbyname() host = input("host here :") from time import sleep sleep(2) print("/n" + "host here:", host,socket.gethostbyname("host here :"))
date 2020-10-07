@@ -1,0 +1,7 @@
+import socket
+import time
+socket.gethostbyname()
+host = input("host here :")
+from time import sleep
+sleep(2)
+print("/n" + "host here:", host,socket.gethostbyname("host here :"))
